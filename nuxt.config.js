@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Matej Bačo - Website developer',
+    title: 'Richard Nálepka - Website developer',
     htmlAttrs: {
       lang: 'en',
     },

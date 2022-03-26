@@ -65,7 +65,7 @@
           <div class="flex space-x-4">
             <svg
               @click="goTo(gitHubUrl)"
-              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-400"
+              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-green-400 dark:hover:text-green-400"
               fill="currentColor"
               role="img"
               viewBox="0 0 24 24"
@@ -79,7 +79,7 @@
 
             <svg
               @click="goTo(messengerUrl)"
-              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-400"
+              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-green-400 dark:hover:text-green-400"
               fill="currentColor"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@
 
             <svg
               @click="goTo(whatsappUrl)"
-              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-400"
+              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-green-400 dark:hover:text-green-400"
               fill="currentColor"
               role="img"
               viewBox="0 0 24 24"
@@ -107,7 +107,7 @@
 
             <svg
               @click="goTo(discordUrl)"
-              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-400"
+              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-green-400 dark:hover:text-green-400"
               fill="currentColor"
               role="img"
               viewBox="0 0 24 24"
@@ -121,7 +121,7 @@
 
             <svg
               @click="goTo(igUrl)"
-              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-400"
+              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-green-400 dark:hover:text-green-400"
               fill="currentColor"
               role="img"
               viewBox="0 0 24 24"
@@ -135,7 +135,7 @@
 
             <svg
               @click="goTo(fbUrl)"
-              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-yellow-400 dark:hover:text-yellow-400"
+              class="w-5 h-5 text-gray-400 transition duration-300 cursor-pointer  dark:text-gray-600 hover:text-green-400 dark:hover:text-green-400"
               fill="currentColor"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
@@ -174,15 +174,15 @@
                 <h1
                   class="mt-0 text-5xl font-bold text-center text-black  dark:text-gray-50 sm:mt-0 sm:text-left"
                 >
-                  <span class="inline text-yellow-400">Matej </span>
-                  <span class="inline text-yellow-400">Bačo </span>
+                  <span class="inline text-green-400">Richard </span>
+                  <span class="inline text-green-400">Nálepka </span>
                   <span class="hidden sm:inline">👋</span>
                 </h1>
                 <h2
                   class="mt-6 mb-4 text-2xl font-semibold text-center text-gray-400  sm:mb-0 sm:mt-0 sm:text-left"
                 >
                   <span class="font-bold text-gray-900 dark:text-white"
-                    >Open-minded</span
+                    >Still a learning</span
                   >
                   website developer.
                 </h2>
@@ -201,7 +201,7 @@
                   <div
                     @click="onDownloadCV()"
                     style="width: fit-content"
-                    class="flex p-2 text-xl font-bold text-gray-500 transition duration-300 rounded-lg  lg:float-right dark:bg-gray-900 bg-gray-50 group-hover:bg-yellow-400 group-hover:text-white"
+                    class="flex p-2 text-xl font-bold text-gray-500 transition duration-300 rounded-lg  lg:float-right dark:bg-gray-900 bg-gray-50 group-hover:bg-green-400 group-hover:text-white"
                   >
                     Download CV
 
@@ -226,12 +226,12 @@
                   <div
                     @click="onPrintCV()"
                     style="width: fit-content"
-                    class="flex p-2 text-xl font-bold text-gray-500 transition duration-300 rounded-lg  lg:float-right dark:bg-gray-900 bg-gray-50 group-hover:bg-yellow-100 group-hover:text-yellow-400"
+                    class="flex p-2 text-xl font-bold text-gray-500 transition duration-300 rounded-lg  lg:float-right dark:bg-gray-900 bg-gray-50 group-hover:bg-green-100 group-hover:text-green-400"
                   >
                     Print CV
 
                     <svg
-                      class="w-6 h-6 ml-3 text-gray-500 transition duration-300  group-hover:text-yellow-400"
+                      class="w-6 h-6 ml-3 text-gray-500 transition duration-300  group-hover:text-green-400"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
@@ -256,11 +256,11 @@
             :isOpened="currentlyOpened === 'skills'"
             v-on:activate="onOpenSection($event)"
             id="skills"
-            colorParent="from-pink-300 to-pink-500"
-            colorParent2="bg-pink-300"
-            colorNameBg="bg-pink-200"
-            colorNameText="text-pink-600"
-            colorNameDark="text-pink-500 dark:text-pink-400"
+            colorParent="from-sky-300 to-sky-500"
+            colorParent2="bg-sky-300"
+            colorNameBg="bg-sky-200"
+            colorNameText="text-sky-600"
+            colorNameDark="text-sky-500 dark:text-sky-400"
             title="Skills Portfolio"
             iconD="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
           >
@@ -269,12 +269,12 @@
                 <div class="max-w-xs">
                   <h1 class="text-xl font-bold text-black dark:text-gray-50">
                     I prepare
-                    <span class="text-pink-500">modern websites</span> from the
+                    <span class="text-sky-500">modern websites</span> from the
                     first line of the code. Every website I build is using
                     <a
                       href="https://appwrite.io/"
                       target="_blank"
-                      class="text-pink-500"
+                      class="text-sky-500"
                     >
                       Appwrite</a
                     >
@@ -293,7 +293,7 @@
                     >
                       <div
                         v-bind:class="
-                          stackItem.isSpecial ? 'bg-pink-500' : 'bg-blue-400'
+                          stackItem.isSpecial ? 'bg-sky-500' : 'bg-blue-400'
                         "
                         class="flex items-center justify-center w-full h-20 rounded-lg "
                         v-html="stackItem.iconSvg"
@@ -399,7 +399,7 @@
                           v-bind:class="
                             technologiesSkill.level < i
                               ? ['text-gray-200', 'dark:text-gray-600']
-                              : ['text-pink-500']
+                              : ['text-sky-500']
                           "
                           v-for="i of [1, 2, 3, 4, 5]"
                           :key="i"
@@ -472,17 +472,17 @@
             :isOpened="currentlyOpened === 'projects'"
             v-on:activate="onOpenSection($event)"
             id="projects"
-            colorParent="from-green-300 to-green-500"
-            colorParent2="bg-green-300"
-            colorNameBg="bg-green-200"
-            colorNameText="text-green-600"
-            colorNameDark="text-green-500 dark:text-green-400"
+            colorParent="from-teal-300 to-teal-500"
+            colorParent2="bg-teal-300"
+            colorNameBg="bg-teal-200"
+            colorNameText="text-teal-600"
+            colorNameDark="text-teal-500 dark:text-teal-400"
             title="Successful Projects"
             iconD="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
           >
             <h1 class="text-xl font-bold text-black dark:text-gray-50">
               With more than
-              <span class="text-green-400">20 finished projects</span> over one
+              <span class="text-teal-400">20 finished projects</span> over one
               year of frelanding, I am a strong developer ready to bring my
               skill set into every project.
             </h1>
@@ -492,7 +492,7 @@
                 v-for="(project, i) of projects"
                 :key="i"
                 v-bind:class="project.grid"
-                class="relative p-2 bg-green-400 rounded-lg cursor-pointer  group h-80"
+                class="relative p-2 bg-teal-400 rounded-lg cursor-pointer  group h-80"
                 @click="onOpenGallery(i)"
               >
                 <div
@@ -524,16 +524,16 @@
             :isOpened="currentlyOpened === 'reviews'"
             v-on:activate="onOpenSection($event)"
             id="reviews"
-            colorParent="from-indigo-300 to-indigo-500"
-            colorParent2="bg-indigo-300"
-            colorNameBg="bg-indigo-200"
-            colorNameText="text-indigo-600"
-            colorNameDark="text-indigo-500 dark:text-indigo-400"
+            colorParent="from-purple-300 to-purple-500"
+            colorParent2="bg-purple-300"
+            colorNameBg="bg-purple-200"
+            colorNameText="text-purple-600"
+            colorNameDark="text-purple-500 dark:text-purple-400"
             title="Client Reviews"
             iconD="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
           >
             <h1 class="text-xl font-bold text-black dark:text-gray-50">
-              Here's what some <span class="text-indigo-400">companies</span> I
+              Here's what some <span class="text-purple-400">companies</span> I
               worked with as freelancer have to say about my work.
             </h1>
 
@@ -551,7 +551,7 @@
                     {{ review.name }}
                   </h1>
                   <h3
-                    class="text-xl font-bold text-center text-indigo-400  sm:text-left"
+                    class="text-xl font-bold text-center text-purple-400  sm:text-left"
                   >
                     {{ review.company }}
                   </h3>
@@ -574,11 +574,11 @@
             :isOpened="currentlyOpened === 'contact'"
             v-on:activate="onOpenSection($event)"
             id="contact"
-            colorParent="from-red-300 to-red-500"
-            colorParent2="bg-red-300"
-            colorNameBg="bg-red-200"
-            colorNameText="text-red-600"
-            colorNameDark="text-red-500 dark:text-red-400"
+            colorParent="from-orange-300 to-orange-500"
+            colorParent2="bg-orange-300"
+            colorNameBg="bg-orange-200"
+            colorNameText="text-orange-600"
+            colorNameDark="text-orange-500 dark:text-orange-400"
             title="Contact me"
             iconD="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
           >
@@ -590,7 +590,7 @@
               <span class="mr-1">E-mail:</span>
               <a
                 :href="'mailto:' + contactEmail"
-                class="text-red-400 cursor-pointer"
+                class="text-orange-400 cursor-pointer"
               >
                 {{ contactEmail }}
               </a>
@@ -599,7 +599,7 @@
               <span class="mr-1">Phone number:</span>
               <a
                 :href="'tel:' + contactTelPlain"
-                class="text-red-400 cursor-pointer"
+                class="text-orange-400 cursor-pointer"
               >
                 {{ constactTel }}
               </a>
@@ -607,8 +607,8 @@
 
             <h1 class="mt-6 text-xl font-bold text-black dark:text-gray-50">
               One quick form stands between
-              <span class="text-red-400">you</span> and
-              <span class="text-red-400">me</span>.
+              <span class="text-orange-400">you</span> and
+              <span class="text-orange-400">me</span>.
             </h1>
 
             <form
@@ -617,25 +617,25 @@
               class="grid grid-cols-12 gap-6 mt-6"
             >
               <input
-                required=""
-                class="col-span-12 p-6 font-bold bg-transparent border-4 border-gray-200  dark:border-gray-600 rounded-xl md:col-span-6 focus:outline-none focus:ring-0 focus:border-red-400"
+                requiorange=""
+                class="col-span-12 p-6 font-bold bg-transparent border-4 border-gray-200  dark:border-gray-600 rounded-xl md:col-span-6 focus:outline-none focus:ring-0 focus:border-orange-400"
                 placeholder="Your name"
                 type="text"
                 name="name"
               />
 
               <input
-                required=""
-                class="col-span-12 p-6 font-bold bg-transparent border-4 border-gray-200  dark:border-gray-600 rounded-xl md:col-span-6 focus:outline-none focus:ring-0 focus:border-red-400"
+                requiorange=""
+                class="col-span-12 p-6 font-bold bg-transparent border-4 border-gray-200  dark:border-gray-600 rounded-xl md:col-span-6 focus:outline-none focus:ring-0 focus:border-orange-400"
                 placeholder="Your e-mail"
                 type="email"
                 name="email"
               />
 
               <textarea
-                required=""
+                requiorange=""
                 style="resize: none"
-                class="col-span-12 p-6 font-bold bg-transparent border-4 border-gray-200  dark:border-gray-600 rounded-xl md:col-span-12 focus:outline-none focus:ring-0 focus:border-red-400"
+                class="col-span-12 p-6 font-bold bg-transparent border-4 border-gray-200  dark:border-gray-600 rounded-xl md:col-span-12 focus:outline-none focus:ring-0 focus:border-orange-400"
                 placeholder="Your message"
                 rows="10"
                 name="message"
@@ -645,7 +645,7 @@
 
               <button
                 type="submit"
-                class="col-span-12 p-6 text-xl font-bold text-white bg-red-400 rounded-lg  md:col-span-6 hover:bg-red-500"
+                class="col-span-12 p-6 text-xl font-bold text-white bg-orange-400 rounded-lg  md:col-span-6 hover:bg-orange-500"
               >
                 Submit
               </button>
@@ -658,7 +658,7 @@
         <div
           class="w-full max-w-6xl mt-4 font-bold text-center text-gray-500  dark:text-gray-500"
         >
-          v1.0.0 &copy; {{ currentYear }}, Matej Bačo. All Rights Reserved.
+          &copy; {{ currentYear }} Richard Nálepka,  All Rights Reserved. Template by <a href="https://www.matejbaco.eu/" class="hover:text-white">Matej Bačo.</a>
         </div>
       </div>
     </div>
@@ -803,7 +803,7 @@ export default Vue.extend({
           name: "Branislav 'Čivo' Kovačovic",
           company: `Topgaming.eu CEO`,
           image: '/clients/civo.jpg',
-          text: `Cooperation with Matej was without the slightest complications. Solution Matej prepared for us made our website really unique.`,
+          text: `Cooperation with Matej was without the slightest complications. Solution Matej prepaorange for us made our website really unique.`,
         },
 
         {
@@ -1064,10 +1064,10 @@ export default Vue.extend({
       iframe: null as any,
       currentYear: new Date().getFullYear(),
 
-      currentColor: 'from-yellow-300 to-yellow-500',
+      currentColor: 'from-green-300 to-green-500',
       // from-{{ currentColor }}-300 to-{{ currentColor }}-500
 
-      currentColor2: 'bg-yellow-300',
+      currentColor2: 'bg-green-300',
       // bg-{{ currentColor }}-300
     }
   },
@@ -1178,8 +1178,8 @@ export default Vue.extend({
     onOpenSection(event: { color: string; color2: string; id: string }) {
       if (this.currentlyOpened === event.id) {
         this.currentlyOpened = 'none'
-        this.currentColor = 'from-yellow-300 to-yellow-500'
-        this.currentColor2 = 'bg-yellow-300'
+        this.currentColor = 'from-green-300 to-green-500'
+        this.currentColor2 = 'bg-green-300'
 
         const selector: any = document.querySelector('#intro')
         // this.scroll(selector)

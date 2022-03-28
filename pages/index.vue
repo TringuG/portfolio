@@ -652,7 +652,7 @@ export default Vue.extend({
     return {
       isDark: true,
 
-      formSpreeKey: 'xrgjpobb',
+      formSpreeKey: 'xeqnlgqg',
       fbUrl: 'https://www.facebook.com/profile.php?id=100006881294301',
       messengerUrl: 'https://m.me/102386341636067',
       gitHubUrl: 'https://github.com/tringug',

@@ -244,13 +244,19 @@
                     <span class="text-sky-500">modern websites</span> from the
                     first line of the code. Every website I build is using
                     <a
-                      href="https://appwrite.io/"
+                      href="https://tailwindcss.com/"
                       target="_blank"
                       class="text-sky-500"
                     >
-                      Appwrite</a
+                      Tailwind</a
+                    > and <a
+                      href="https://kit.svelte.dev/"
+                      target="_blank"
+                      class="text-sky-500"
                     >
-                    backend as a service.
+                      SvelteKIT.</a
+                    >
+                    
                   </h1>
                 </div>
 
@@ -453,10 +459,8 @@
             iconD="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"
           >
             <h1 class="text-xl font-bold text-black dark:text-gray-50">
-              With more than
-              <span class="text-red-400">20 finished projects</span> over one
-              year of frelanding, I am a strong developer ready to bring my
-              skill set into every project.
+              
+              <span class="text-red-400">5 finished projects</span> 
             </h1>
 
             <div class="grid grid-cols-12 gap-6 mt-8">
@@ -661,60 +665,49 @@ export default Vue.extend({
       contactTelPlain: '+421948387906',
 
       codingSkills: [
-        {
-          name: 'Typescript',
-          level: 5,
+                {
+          name: 'HTML',
+          level: 3,
+        },
+                {
+          name: 'CSS',
+          level: 3,
+        },
+                {
+          name: 'MySQL',
+          level: 2,
         },
         {
           name: 'PHP',
-          level: 4,
+          level: 1,
         },
         {
-          name: 'MySQL',
-          level: 4,
-        },
-        {
-          name: 'CSS',
-          level: 4,
-        },
-        {
-          name: 'HTML',
-          level: 4,
+          name: 'JavaScript',
+          level: 1,
         },
       ],
 
       technologiesSkills: [
         {
-          name: 'Appwrite',
-          level: 5,
-        },
-        {
-          name: 'Git',
-          level: 4,
-        },
-        {
-          name: 'Docker',
-          level: 4,
-        },
-        {
-          name: 'Regex',
-          level: 4,
-        },
-        {
-          name: 'Markdown',
-          level: 4,
-        },
-        {
-          name: 'PM2',
-          level: 3,
-        },
-        {
-          name: 'Nginx',
+          name: 'Windows',
           level: 3,
         },
         {
           name: 'Linux',
-          level: 3,
+          level: 2,
+        },
+        {
+          name: 'Appwrite',
+          level: 2,
+        },
+        {
+          name: 'Git',
+          level: 2,
+        },
+        
+        {
+          name: 'Docker',
+          level: 1,
         },
       ],
 
@@ -724,11 +717,6 @@ export default Vue.extend({
           iconSvg: `<svg class="w-12 h-12 text-white" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Appwrite</title><path d="M7.834 4C4.094 4.09.584 6.816.06 11.014a7.993 7.994 0 0 0 3.122 7.368c2.757 2.08 6.198 2.047 8.82.538a7.993 7.994 0 1 0-.005-13.834A7.84 7.84 0 0 0 7.831 4zm.122 1.485a6.525 6.526 0 0 1 6.484 5.537c0 .007.002.013.003.02.02.143.037.287.048.433l.006.054c.01.15.016.303.017.456 0 .084-.005.168-.008.252-.002.058-.003.117-.007.175a6.68 6.68 0 0 1-.03.335l-.01.08c-.015.12-.033.24-.055.358l-.01.048c-.022.124-.05.248-.08.37l-.006.025a6.578 6.58 0 0 1-.41 1.15c-.007.016-.017.033-.024.05a6.538 6.54 0 0 1-1.62 2.115l-.054.046c-.08.067-.162.13-.245.194-.055.042-.11.084-.168.125-.04.03-.08.056-.122.084a6.68 6.68 0 0 1-1.123.612 6.517 6.518 0 0 1-6.468-.8C.069 14.184.838 7.96 5.457 6.004a6.512 6.513 0 0 1 2.499-.518zm.61 3.72c-.183 0-.343.013-.352.032-.01.024-.132.504-.264 1.074-.136.57-.353 1.468-.475 2-.235.974-.377 1.613-.377 1.698 0 .023.146.042.325.042h.325l.146-.65.423-1.796c.15-.635.334-1.408.405-1.72.07-.31.14-.591.155-.624.014-.043-.066-.057-.31-.057zm-2.441 1.6-.438.47-.433.47.127.15c.07.086.264.298.428.472l.302.32h.856l-.405-.438c-.221-.235-.405-.46-.405-.49 0-.032.17-.243.377-.47.207-.23.376-.428.376-.45 0-.02-.178-.034-.395-.034zm3.27 0c-.231 0-.415.014-.415.028s.08.103.18.202c.366.367.624.678.61.74-.009.032-.188.253-.405.484l-.39.428h.437l.438-.005.4-.438c.22-.244.4-.46.4-.49 0-.023-.188-.244-.424-.493l-.423-.457z"/></svg>`,
           title: 'Appwrite',
           text: `Appwrite is extendable set of tools for developer to rapidly prepare reliable, secure, and scalable solutions.`,
-        },
-        {
-          iconSvg: `<svg class="w-12 h-12 text-white" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vue.js</title><path d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z"/></svg>`,
-          title: 'Vue.js',
-          text: `Vue is a development framework for creating efficient and sophisticated single-page applications.`,
         },
         {
           iconSvg: `<svg class="w-12 h-12 text-white" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS icon</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>`,
@@ -744,14 +732,9 @@ export default Vue.extend({
           text: `Vercel let's your application go live! Vercel lets you host a website and bring content to visitors all around the world.`,
         },
         {
-          iconSvg: `<svg class="w-12 h-12 text-white" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Stripe</title><path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.594-7.305h.003z"/></svg>`,
-          title: 'Stripe',
-          text: `Stripe is the easiest way to start collecting payments from your customers from all over the world. Both one-time payments and subscriptions can be easily implemented.`,
-        },
-        {
-          iconSvg: `<svg class="w-12 h-12 text-white" fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TransferWise icon</title><path d="M9.871 24h3.11L23.127 0H3.694l3.748 6.291-6.571 6.283h11.361l1.068-2.517H7.03l3.792-3.783L8.61 2.516h10.337z"/></svg>`,
-          title: 'Localization (i18n)',
-          text: `i18n is a lightweight simple internationalization framework that lets connect developers and translators to create multilingual websites.`,
+          iconSvg: `<svg class="w-12 h-12 text-white" fill="currentColor" fill-rule="evenodd" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Git</title><path d="M12 0c-6.626 0-12 5.372-12 12 0 6.627 5.374 12 12 12 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12zm6.736 11.376l-6.112-6.112c-.177-.176-.408-.264-.638-.264-.231 0-.461.088-.638.264l-1.269 1.27 1.61 1.61c.375-.126.803-.042 1.102.256.299.301.384.733.254 1.109l1.551 1.551c.376-.129.809-.045 1.109.255.419.419.419 1.097 0 1.517-.419.419-1.098.419-1.518 0-.314-.316-.393-.778-.233-1.167l-1.447-1.447v3.808c.102.051.198.118.284.204.418.418.418 1.097 0 1.517-.419.419-1.099.419-1.517 0-.42-.42-.42-1.099 0-1.517.103-.104.223-.183.351-.235v-3.844c-.128-.052-.248-.13-.351-.234-.318-.317-.395-.783-.231-1.173l-1.587-1.587-4.192 4.191c-.176.177-.264.407-.264.638 0 .23.088.461.264.638l6.113 6.112c.176.176.407.263.637.263.231 0 .461-.087.638-.263l6.084-6.083c.176-.177.264-.408.264-.638 0-.231-.088-.462-.264-.638v-.001z"/></svg>`,
+          title: 'Git',
+          text: `Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.`,
         },
       ],
 
@@ -762,272 +745,104 @@ export default Vue.extend({
         },
         {
           name: `Czech`,
-          level: 4,
+          level: 3,
         },
         {
           name: `English`,
           level: 3,
         },
+        {
+          name: `Poland`,
+          level: 2,
+        },
       ],
 
       reviews: [
         {
-          name: "Branislav 'Čivo' Kovačovic",
-          company: `Topgaming.eu CEO`,
-          image: '/clients/civo.jpg',
-          text: `Cooperation with Matej was without the slightest complications. Solution Matej prepaorange for us made our website really unique.`,
+          name: "Božena Stašenková",
+          company: `Asociácia spotrebiteľských subjektov Slovenska`,
+          image: '/clients/Spotreb.png',
+          text: `At RAN Europe s.r.o. I received a recommendation from a friend of mine. It was a useful contact, because we are with the results of the work of RAN Europe s.r.o. and the services they provide with maximum satisfaction. Excellent communication and cooperation with this company is reflected in the end result.`,
         },
 
         {
-          name: 'Denis Sedlák',
-          company: `Hiroo.eu CEO`,
-          image: '/clients/denis.jpg',
-          text: `Cooperation with Matej was very professional, punctual and with a high-quality level. He is not only coder but also business thinker and I am sure you will be satisfied with his work.`,
-        },
-
-        {
-          name: "David 'Kellwiin' Helikar",
-          company: `Twitch.tv content creator`,
-          image: '/clients/kellwiin.png',
-          text: `Well done job in short peroid of time. Interaction with client was wihout any problem, developer was able to satisfy all my needs. I am really happy about active updates he is able to do. I would love to use your services again in future.`,
-        },
-
-        {
-          name: "Pablo 'Hyper' Sanchez",
-          company: `RealmsMP Owner`,
-          image: '/clients/hyper.png',
-          text: `Matej is my go to dev. He is very informative and helpful when it comes to explaining what he is doing and why. I appreciate how thorough and diligent he is with his code and work in general. He has coded many plugins for me and I do not like working with anybody else, specially after having been spoiled by his great work.  Matej works hard and tracks all his hours worked very carefully. He constantly updates me throughout the day. I would highly recommend his services to anybody looking for any type of coding work/projects.`,
+          name: 'Alena Lukačovská',
+          company: `Spoločenstvo vlastníkov bytov Lipa`,
+          image: '/clients/Lipa.png',
+          text: `Homeowners appreciate that they have better control over the activities of the homeowners' community and see transparent financial flows. RAN Europe s.r.o. prepared a suitable proposal for the publication of important information and documents. We are satisfied with the communication and services provided.`,
         },
         {
-          name: 'Neiz',
-          company: `EGM Admin team leader`,
-          image: '/clients/egm.png',
-          text: `Very good, fast, and professional service. Quick responses and great patience lead to an awesome experience.`,
-        },
-        {
-          name: 'Wake',
-          company: `CraftMania.cz Owner`,
-          image: '/clients/cm.png',
-          text: `Overall, great job! Plugins are well made and I must say, Matej is really good with GUI menus in Minecraft development.`,
+          name: 'Alena Lukačovská',
+          company: `Kimchi`,
+          image: '/clients/kimchi.png',
+          text: ``,
         },
       ],
 
       projects: [
         {
           grid: ['col-span-12 md:col-span-6 lg:col-span-12'],
-          mainImage: '/projects/hiroo/hiroo1.png',
-          name: 'Hiroo',
-          description: `Online candidate pre-selection SaaS.`,
+          mainImage: '/projects/raneurope/RAN1.png',
+          name: 'RANEurope',
+          description: `Simple website with basic info and contact form.`,
           images: [
-            '/projects/hiroo/hiroo1.png',
-            '/projects/hiroo/hiroo2.png',
-            '/projects/hiroo/hiroo3.png',
-            '/projects/hiroo/hiroo4.png',
-            '/projects/hiroo/hiroo5.png',
-            '/projects/hiroo/hiroo6.png',
-            '/projects/hiroo/hiroo7.png',
-            '/projects/hiroo/hiroo8.png',
-            '/projects/hiroo/hiroo9.png',
+            '/projects/raneurope/RAN1.png',
+            '/projects/raneurope/RAN2.png',
+            '/projects/raneurope/RAN3.png',
+            '/projects/raneurope/RAN4.png',
+            '/projects/raneurope/RAN5.png',
           ],
         },
 
         {
           grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
-          mainImage: '/projects/dreamland/dreamland1.png',
-          name: 'Dream Land',
-          description: `Minecraft server website presentation.`,
-          images: ['/projects/dreamland/dreamland1.png'],
-        },
-
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-8'],
-          mainImage: '/projects/adamko/adamko1.png',
-          name: 'Adamko',
-          description: `Professional portfolio for a Twitch content creator.`,
+          mainImage: '/projects/kimchi/kimchi1.png',
+          name: 'Kimchi',
+          description: `Kimchi company website presentation.`,
           images: [
-            '/projects/adamko/adamko1.png',
-            '/projects/adamko/adamko2.png',
-            '/projects/adamko/adamko3.png',
-            '/projects/adamko/adamko4.png',
-            '/projects/adamko/adamko5.png',
-            '/projects/adamko/adamko6.png',
-            '/projects/adamko/adamko7.png',
-            '/projects/adamko/adamko8.png',
+            '/projects/kimchi/kimchi1.png',
+            '/projects/kimchi/kimchi2.png',
+            '/projects/kimchi/kimchi3.png',
+            '/projects/kimchi/kimchi4.png',
+            '/projects/kimchi/kimchi5.png',
+            '/projects/kimchi/kimchi6.png',
           ],
         },
 
         {
           grid: ['col-span-12 md:col-span-6 lg:col-span-8'],
-          mainImage: '/projects/unicraft/unicraft1.png',
-          name: 'Uni-Craft World',
-          description: `Minecraft server website presentation.`,
+          mainImage: '/projects/authmodal/A-1.png',
+          name: 'Auth Modal',
+          description: `Simple template for login register...`,
           images: [
-            '/projects/unicraft/unicraft1.png',
-            '/projects/unicraft/unicraft2.png',
+            '/projects/authmodal/A-1.png',
+            '/projects/authmodal/A-2.png',
+            '/projects/authmodal/A-3.png',
+            '/projects/authmodal/A-4.png',
+            '/projects/authmodal/A-5.png',
+            '/projects/authmodal/A-6.png',
+          ],
+        },
+
+        {
+          grid: ['col-span-12 md:col-span-6 lg:col-span-8'],
+          mainImage: '/projects/spotrebitel/spot1.png',
+          name: 'Asociácia spotrebiteľských subjektov slovenska',
+          description: `Representation website.`,
+          images: [
+            '/projects/spotrebitel/spot1.png',
+            '/projects/spotrebitel/spot2.png',
+            '/projects/spotrebitel/spot3.png',
+            '/projects/spotrebitel/spot4.png',
           ],
         },
         {
           grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
           mainImage: '/projects/rensk/rensk1.png',
-          name: 'REN Slovakia',
-          description: `E-commerce solution for a Slovakia startup.`,
+          name: 'SVB Lipa',
+          description: `Basic website with blog section and document section.`,
           images: [
             '/projects/rensk/rensk1.png',
-            '/projects/rensk/rensk2.png',
-            '/projects/rensk/rensk3.png',
-            '/projects/rensk/rensk4.png',
-            '/projects/rensk/rensk5.png',
-            '/projects/rensk/rensk6.png',
-            '/projects/rensk/rensk7.png',
-            '/projects/rensk/rensk8.png',
-            '/projects/rensk/rensk9.png',
-            '/projects/rensk/rensk10.png',
-          ],
-        },
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
-          mainImage: '/projects/codeink/codeink1.png',
-          name: 'Code Ink',
-          description: `Presentation website for a software studio.`,
-          images: [
-            '/projects/codeink/codeink1.png',
-            '/projects/codeink/codeink2.png',
-            '/projects/codeink/codeink3.png',
-            '/projects/codeink/codeink4.png',
-            '/projects/codeink/codeink5.png',
-            '/projects/codeink/codeink6.png',
-            '/projects/codeink/codeink7.png',
-            '/projects/codeink/codeink8.png',
-            '/projects/codeink/codeink9.png',
-            '/projects/codeink/codeink10.png',
-            '/projects/codeink/codeink11.png',
-            '/projects/codeink/codeink12.png',
-            '/projects/codeink/codeink13.png',
-            '/projects/codeink/codeink14.png',
-            '/projects/codeink/codeink15.png',
-            '/projects/codeink/codeink16.png',
-          ],
-        },
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
-          mainImage: '/projects/gallamini/galla1.png',
-          name: 'Gallactic Mini',
-          description: `Presentation website for a Minecraft server.`,
-          images: [
-            '/projects/gallamini/galla1.png',
-            '/projects/gallamini/galla2.png',
-            '/projects/gallamini/galla3.png',
-            '/projects/gallamini/galla4.png',
-            '/projects/gallamini/galla5.png',
-            '/projects/gallamini/galla6.png',
-            '/projects/gallamini/galla7.png',
-            '/projects/gallamini/galla8.png',
-            '/projects/gallamini/galla9.png',
-            '/projects/gallamini/galla10.png',
-            '/projects/gallamini/galla11.png',
-            '/projects/gallamini/galla12.png',
-            '/projects/gallamini/galla13.png',
-            '/projects/gallamini/galla14.png',
-            '/projects/gallamini/galla15.png',
-          ],
-        },
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
-          mainImage: '/projects/kblog/kblog1.png',
-          name: 'Kellwiin Blog',
-          description: `Personalized blog solution for a content creator.`,
-          images: [
-            '/projects/kblog/kblog1.png',
-            '/projects/kblog/kblog2.png',
-            '/projects/kblog/kblog3.png',
-            '/projects/kblog/kblog4.png',
-            '/projects/kblog/kblog5.png',
-          ],
-        },
-
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-12'],
-          mainImage: '/projects/kellwiin/kellwiin1.png',
-          name: 'Kellwiin',
-          description: `Professional portfolio for a Twitch content creator.`,
-          images: [
-            '/projects/kellwiin/kellwiin1.png',
-            '/projects/kellwiin/kellwiin2.png',
-            '/projects/kellwiin/kellwiin3.png',
-            '/projects/kellwiin/kellwiin4.png',
-            '/projects/kellwiin/kellwiin5.png',
-            '/projects/kellwiin/kellwiin6.png',
-            '/projects/kellwiin/kellwiin7.png',
-            '/projects/kellwiin/kellwiin8.png',
-            '/projects/kellwiin/kellwiin9.png',
-            '/projects/kellwiin/kellwiin10.png',
-            '/projects/kellwiin/kellwiin11.png',
-          ],
-        },
-
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
-          mainImage: '/projects/kbody/kbody1.png',
-          name: 'Kellwiin Event',
-          description: `Database solution for an in-game event analytics including results interface.`,
-          images: [
-            '/projects/kbody/kbody1.png',
-            '/projects/kbody/kbody2.png',
-            '/projects/kbody/kbody3.png',
-            '/projects/kbody/kbody4.png',
-          ],
-        },
-
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-8'],
-          mainImage: '/projects/matejbaco/matejbaco1.png',
-          name: 'Matej Bačo',
-          description: `My own old presentation website.`,
-          images: [
-            '/projects/matejbaco/matejbaco1.png',
-            '/projects/matejbaco/matejbaco2.png',
-            '/projects/matejbaco/matejbaco3.png',
-            '/projects/matejbaco/matejbaco4.png',
-            '/projects/matejbaco/matejbaco5.png',
-            '/projects/matejbaco/matejbaco6.png',
-            '/projects/matejbaco/matejbaco7.png',
-            '/projects/matejbaco/matejbaco8.png',
-            '/projects/matejbaco/matejbaco9.png',
-            '/projects/matejbaco/matejbaco10.png',
-            '/projects/matejbaco/matejbaco11.png',
-            '/projects/matejbaco/matejbaco12.png',
-          ],
-        },
-        {
-          grid: ['col-span-12 md:col-span-6 lg:col-span-8'],
-          mainImage: '/projects/tuke/tuke1.png',
-          name: 'TUKE Website',
-          description: `University website to serve studying materials.`,
-          images: [
-            '/projects/tuke/tuke1.png',
-            '/projects/tuke/tuke2.png',
-            '/projects/tuke/tuke3.png',
-            '/projects/tuke/tuke4.png',
-            '/projects/tuke/tuke5.png',
-            '/projects/tuke/tuke6.png',
-            '/projects/tuke/tuke7.png',
-            '/projects/tuke/tuke8.png',
-            '/projects/tuke/tuke9.png',
-          ],
-        },
-
-        {
-          grid: ['col-span-12 md:col-span-12 lg:col-span-4'], // TODO: Ked pridavas, pozor aby to bolo pekne zakonecne aj na MD aj na LG
-          mainImage: '/projects/mboros/boros1.png',
-          name: 'Michael Boroš',
-          description: `Presentation website for photographer.`,
-          images: [
-            '/projects/mboros/boros1.png',
-            '/projects/mboros/boros2.png',
-            '/projects/mboros/boros3.png',
-            '/projects/mboros/boros4.png',
-            '/projects/mboros/boros5.png',
-            '/projects/mboros/boros6.png',
           ],
         },
       ],

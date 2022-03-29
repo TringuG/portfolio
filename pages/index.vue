@@ -842,7 +842,9 @@ export default Vue.extend({
           name: 'SVB Lipa',
           description: `Basic website with blog section and document section.`,
           images: [
-            '/projects/rensk/rensk1.png',
+            '/projects/lipa/lipa1.png',
+            '/projects/lipa/lipa2.png',
+            '/projects/lipa/lipa3.png',
           ],
         },
       ],

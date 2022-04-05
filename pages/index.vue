@@ -154,7 +154,7 @@
                   class="mt-6 mb-4 text-2xl font-semibold text-center text-gray-400  sm:mb-0 sm:mt-0 sm:text-left"
                 >
                   <span class="font-bold text-gray-900 dark:text-white"
-                    >Still a learning</span
+                    ></span
                   >
                   website developer.
                 </h2>
@@ -254,7 +254,7 @@
                       target="_blank"
                       class="text-sky-500"
                     >
-                      SvelteKIT.</a
+                      Appwrite.</a
                     >
                     
                   </h1>
@@ -271,7 +271,7 @@
                     >
                       <div
                         v-bind:class="
-                          stackItem.isSpecial ? 'bg-sky-500' : 'bg-blue-400'
+                          stackItem.isSpecial ? 'bg-sky-500' : 'bg-sky-400'
                         "
                         class="flex items-center justify-center w-full h-20 rounded-lg "
                         v-html="stackItem.iconSvg"
@@ -299,7 +299,7 @@
                       :key="index"
                     >
                       <div
-                        class="flex items-center justify-center w-full h-20 bg-blue-400 rounded-lg "
+                        class="flex items-center justify-center w-full h-20 bg-sky-400 rounded-lg "
                         v-html="stackItem.iconSvg"
                       ></div>
 
@@ -634,7 +634,7 @@
         <div
           class="w-full max-w-6xl mt-4 font-bold text-center text-gray-500  dark:text-gray-500"
         >
-          &copy; {{ currentYear }} Richard Nálepka,  All Rights Reserved. Template by <a href="https://www.matejbaco.eu/" class="hover:text-white">Matej Bačo.</a>
+          &copy; {{ currentYear }} <a href="https://github.com/TringuG/" class="hover:text-white">Richard Nálepka</a>,  All Rights Reserved. Template by <a href="https://www.matejbaco.eu/" class="hover:text-white">Matej Bačo.</a>
         </div>
       </div>
     </div>
@@ -771,12 +771,6 @@ export default Vue.extend({
           image: '/clients/Lipa.png',
           text: `Homeowners appreciate that they have better control over the activities of the homeowners' community and see transparent financial flows. RAN Europe s.r.o. prepared a suitable proposal for the publication of important information and documents. We are satisfied with the communication and services provided.`,
         },
-        {
-          name: 'Alena Lukačovská',
-          company: `Kimchi`,
-          image: '/clients/kimchi.png',
-          text: ``,
-        },
       ],
 
       projects: [
@@ -838,7 +832,7 @@ export default Vue.extend({
         },
         {
           grid: ['col-span-12 md:col-span-6 lg:col-span-4'],
-          mainImage: '/projects/rensk/rensk1.png',
+          mainImage: '/projects/lipa/lipa1.png',
           name: 'SVB Lipa',
           description: `Basic website with blog section and document section.`,
           images: [
